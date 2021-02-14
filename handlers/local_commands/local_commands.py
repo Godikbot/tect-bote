@@ -28,7 +28,7 @@ commands.update({name: ping for name in pings})
 
 
 async def passer(*_):
-    return "Неизвестная команда, попробуй писать правильно обязательно получиться"
+    return "Неизвестная команда, попробуй писать правильно обязательно получится"
 
 
 async def handle(update: list, vk: VkApi):
